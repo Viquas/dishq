@@ -2,254 +2,270 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'meta.php';?>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="dishq">
+  <meta name="description" content="Powering great food experiences through personalisation"/>
+  <meta name="robots" content="noodp"/>
+  <link rel="canonical" href="http://dishq.in/" />
+  <link href="images/favicon.png" rel="shortcut icon" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="dishq - Powering great food experiences through personalisation" />
+  <meta property="og:description" content="Powering great food experiences through personalisation. Download the dishq app!" />
+  <meta property="og:url" content="http://dishq.in/" />
+  <meta property="og:site_name" content="dishq - Powering great food experiences through personalisation" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="Powering great food experiences through personalisation. Download the dishq app!" />
+  <meta name="twitter:title" content="dishq - Powering great food experiences through personalisation" />
+  <title>dishq - Powering Great Food Experiences Through Personalisation</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <!-- <link href="css/screen.min.css" rel="stylesheet"> -->
+      <link href="css/home.min.css" rel="stylesheet">
+  <link href="css/dishq.min.css" rel="stylesheet">
+
+  <!-- <link href="css/menu.css" rel="stylesheet"> -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+  body{
+    background: white;
+  }
+  section {
+    margin-top:0px !important;
+  }
+  </style>
+
+  <!--Google Analyti -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-72767972-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!-- <script type='text/javascript' src='https://www.enginethemes.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"> -->
+
+
 <body>
 
 
-<?php include 'header.php';?>
 
-<section>
-    <div class="container-full ">
-     <div class="row">
-       <div class="col-lg-12 text-center">
-        <h1 class="big-text"> Don't know what to eat?</h1>
-       </div>
+<header id="header-wrapper" class="">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-xs-2">
+                <a href="" class="wrapper-logo">
+
+					                </a>
+            </div>
+            <div class="col-md-10 col-xs-10">
+
+            </div>
+        </div>
     </div>
+</header>
+<!-- END / HEADER -->
+<!-- SLIDER -->
+<section id="before-after">
+    <div class="view view-after">
+    	<div class="wrapper-after">
+        	<div class="img-bird-wrapper et-in-viewport-check" et-anim="floating_special" et-anim-duration="3500" et-anim-delay="0" et-anim-easing="ease">
+            <!-- <img src="images/logo.png" alt="dishq logo" class="logo-center" > -->
+    			<img src="images/out.png"/>
+
+            </div>
+
+
+              <img src="images/logo.png" alt="dishq logo" class="logo-center" >
+            <div class="content-before-after right-position">
+
+            	<div class="content-right hidden-sm hidden-xs">
+                <p class="text-center tag"> For Foodies </p>
+                <hr class="white-line"></hr>
+                	<h3>Don’t know what to eat?<br/> dishq does.</h3>
+                  <p class="text-center">
+                  <a type="button" class="btn btn-lg w-button" href="home.php">Learn More</a>
+                </p>
+                </div>
+                <div class="content-left hidden-sm hidden-xs">
+                                <!-- <h3>Get personal with your customers. Try dishq’s food personalisation API.</h3>
+                                  <p class="text-center">
+                                <button type="button" class="btn btn-lg g-button">Learn More</button> -->
+                              </p>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="mob_div_left hidden-lg hidden-md">
+          <p class=" tag"> For Foodies </p>
+          <hr class="white-line"></hr>
+            <h3 class="oust">Don’t know what to eat? <br/>dishq does. </h3><br/><br/><br/><br/>
+            <p class="text-center">  <a type="button" class="btn btn-lg w-button" href="home.php">Learn More</a> </p>
+        </div>
+    </div>
+    <div class="view view-before">
+    	<div class="wrapper-before">
+        	<div class="img-bird-wrapper et-in-viewport-check" et-anim="floating_special" et-anim-duration="3500" et-anim-delay="0" et-anim-easing="ease">
+
+          <img src="images/in3.png"/>
+          <div class="tooltip-item tooltip-item-1" data-header-text="pos-item-1" id='m_1'>
+          </div>
+          <div class="one" id="one">
+            Cuisine: Italian
+          </div>
+          <div class="tooltip-item tooltip-item-2" data-header-text="pos-item-2"></div>
+          <div class="two" id="two">
+            Cooking Style: Baked
+          </div>
+          <div class="tooltip-item tooltip-item-3" data-header-text="pos-item-3"></div>
+          <div class="three" id="three">
+            Dish Nature: Non-Veg
+          </div>
+          <div class="tooltip-item tooltip-item-4" data-header-text="pos-item-4"></div>
+          <div class="four" id="four">
+            Major Ingredients: Egg, Cheese, Mushroom...
+          </div>
+            </div>
+            <img src="images/logogreen.png" alt="dishq logo" class="logo-center">
+            <div class="content-before-after left-position">
+            	<div class="content-right hidden-sm hidden-xs">
+                	<!-- <h3>Don’t know what to eat? dishq does.</h3>
+                  <p class="text-center">
+                  <button type="button" class="btn btn-lg w-button">Learn More</button>
+                </p> -->
+                </div>
+                <div class="content-left hidden-sm hidden-xs">
+                  <p class="text-center tag-black"> For Business </p>
+                  <hr class="black-line"></hr>
+                              <h3>Build intelligence into your food app.
+                            </h3>
+                                <p class="text-center">
+
+                               <a href="business.php" type="button" class="btn btn-lg g-button">Learn More</a>
+                           </p>
+                </div>
+            </div>
+            <div class="mob_div_right hidden-lg hidden-md">
+              <p class="tag-black"> For Business </p>
+              <hr class="black-line"></hr>
+                <h3 class="inst">Build intelligence into your food app.</h3>
+                <p class="text-center">
+                <a type="button" class="btn btn-lg g-button" href="business.php">Learn More</a>
+              </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="dragme">
+    	<span class="icon-drag"></span>
     </div>
 </section>
-
-
-<div class="container-full gap2">
-    <div class="row">
-        <div class="col-md-5 col-md-offset-1 col-sm-12  col-xs-12 vcenter">
-          <!-- <div class="home__item__device" data-artifacttwo-img=""> -->
-				<div class="home__item__video">
-					<img class="img-responsive" src="images/phone.png" style="width:400px;">
-					<video width="750" height="1334" autoplay="autoplay" muted="" loop="">
-						 <source src="videos/dishq.mp4" type="video/mp4">
-						</video>
-				</div><img class="home__item__phone hidden-lg hidden-md" src="images/home.png" style="width:300px;" >
-
-          <!-- <div class="home__item__video">
-             <img class=""  src="images/phone.png">
-              <video width="300" height="240" autoplay="" muted="" loop="" poster="images/home.png">
-                 <source src="videos/dishq.mp4" type="video/mp4" class="video_play">
-                 </video>
-               </div> -->
-          <!-- <img src="images/phone.png" class="img-responsive mob-left" data-bottom-top="transform:translate3d(0px, 10%, 0px)"
-          data-top-bottom="transform:translate3d(0px, -10%, 0px)"> -->
-        </div>
+<!-- END / SLIDER -->
 
 
 
-        <div class="col-md-4 col-sm-12  col-xs-12 vcenter">
-          <h1 class="headline main-text"> dishq does </h1>
-          <p class="text-center">
-          <a href="https://play.google.com/store/apps/details?id=version1.dishq.dishq" target="_blank">
-            <img class="play_button" src="images/playstore.png">
-          </a>
-        </p>
+    <!-- SCRIPT -->
+    <script src="https://www.enginethemes.com/wp-content/themes/et_home_new/js/libs/draggble.min.js"></script>
+    <script src="https://www.enginethemes.com/wp-content/themes/et_home_new/js/libs/teenmax.min.js"></script>
+
+<script type='text/javascript' src='https://www.enginethemes.com/wp-content/themes/et_home_new/js/libs/bootstrap.min.js?ver=4.7.4'></script>
 
 
-          <p class="sub main-text"> Food discovery made personal</p>
-
-
-          <div class="hidden-xs hidden-sm">
-          <br/>
-
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-        </div>
-        </div>
-
-        </div>
-    </div>
-
-    <div class="container-full">
-      <div class="row">
-      <div class="col-md-6">
-        <img src="images/coffee.png" class="img-responsive coffee pull-left hidden-sm hidden-xs">
-      </div>
-            <div class="col-md-6">
-              <img src="images/oreo.png" class="img-responsive oreo pull-right hidden-sm hidden-xs" data-bottom-top="transform:translate3d(0px, 20%, 0px)"
-              data-top-bottom="transform:translate3d(0px, -20%, 0px)">
-            </div>
-          </div>
-    </div>
-
-    <div class="container-full hidden-xs hidden-sm">
-        <div class="row gap">
-          <div class="col-md-5 col-md-offset-1 col-sm-12  col-xs-12 vcenter">
-
-        <h1 class="headline"> Discover food, <br/>matched to your taste </h1>
-        <p class="sub"> For every dish, find out...</p>
-          <p class="sub"> If it's right for you</p>
-          <p class="sub"> Where it's served</p>
-            <p class="sub"> Who delivers it</p>
-            <div class="hidden-xs hidden-sm">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-          </div>
-      </div>
-
-        <div class="col-md-5 col-sm-12  col-xs-12 vcenter ">
-          <img src="images/match.png" class="img-responsive mob-right " data-bottom-top="transform:translate3d(0px, 10%, 0px)"
-          data-top-bottom="transform:translate3d(0px, -10%, 0px)">
-        </div>
-
-        </div>
-    </div>
-
-
-    <div class="container-full hidden-lg hidden-md">
-        <div class="row gap">
-          <div class="col-sm-12">
-        <h1 class="headline"> Discover food, <br/>matched to your taste </h1>
-      </div>
-
-        <div class="col-sm-12">
-          <img src="images/match.png" class="img-responsive mob-right " >
-        </div>
-        <div class="col-sm-12">
-
-      <p class="sub"> For every dish, find out...</p>
-        <p class="sub"> If it's right for you</p>
-        <p class="sub"> Where it's served</p>
-          <p class="sub"> Who delivers it</p>
-    </div>
-        </div>
-    </div>
-
-
-<div class="container-full gap">
-        <div class="col-sm-6">
-          <img src="images/pizza.png" class="img-responsive pizza pull-left hidden-sm hidden-xs">
-        </div>
-        <div class="col-sm-6">
-
-        </div>
-</div>
-
-<div class="container gap  hidden-sm hidden-xs">
-    <div class="row ">
-        <div class="col-md-5 col-md-offset-1 col-sm-12  col-xs-12 vcenter">
-          <img src="images/menu.png" class="img-responsive mob-left" data-bottom-top="transform:translate3d(0px, 10%, 0px)"
-          data-top-bottom="transform:translate3d(0px, -10%, 0px)">
-        </div>
-        <div class="col-md-5 col-sm-12  col-xs-12 vcenter">
-          <h1 class="headline"> No more messy menus  </h1>
-          <p class="sub">Only tasty dish photos,</p>
-          <p class="sub">recommended for you.</p>
-          <div class="hidden-xs hidden-sm">
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          </div>
-        </div>
-
-    </div>
-</div>
-<div class="container gap  hidden-lg hidden-md">
-    <div class="row ">
-      <div class="col-sm-12">
-        <h1 class="headline"> No more messy menus  </h1>
-      </div>
-        <div class="col-sm-12">
-          <img src="images/menu.png" class="img-responsive mob-left" >
-        </div>
-        <div class="col-sm-12">
-
-          <p class="sub">Only tasty dish photos,</p>
-          <p class="sub">recommended for you.</p>
-        </div>
-
-    </div>
-</div>
-
-<div class="container-full">
-  <div class="row gap">
-  <div class="col-md-6">
-    <img src="images/mushroom.png" class="img-responsive mushroom pull-left hidden-sm hidden-xs">
-  </div>
-    <div class="col-md-6">
-      <img src="images/salad.png" class="img-responsive salad pull-right hidden-sm hidden-xs" >
-    </div>
-      </div>
-</div>
-
-
-<div class="container-full hidden-sm hidden-xs">
-    <div class="row gap">
-      <div class="col-md-5 col-md-offset-1 col-sm-12  col-xs-12 vcenter">
-        <h1 class="headline"> Find food to match <br/> your mood </h1>
-        <p class="sub">No matter how you’re feeling, </p>
-        <p class="sub">dishq knows what’s good, for you.</p>
-        <div class="hidden-xs hidden-sm">
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-      </div>
-      </div>
-        <div class="col-md-5 col-sm-12  col-xs-12 vcenter">
-          <img src="images/mood.png" class="img-responsive mob-right"  data-bottom-top="transform:translate3d(0px, 10%, 0px)"
-          data-top-bottom="transform:translate3d(0px, -10%, 0px)">
-        </div>
-
-        </div>
-    </div>
-
-
-    <div class="container-full hidden-lg hidden-md">
-        <div class="row gap">
-
-          <div class="col-sm-12">
-            <h1 class="headline"> Find food to match <br/> your mood </h1>
-          </div>
-          <div class="col-sm-12">
-            <img src="images/mood.png" class="img-responsive mob-right">
-          </div>
-          <div class="col-sm-12">
-            <p class="sub">No matter how you’re feeling,</p>
-            <p class="sub">dishq knows what’s good, for you.</p>
-          </div>
-
-
-            </div>
-        </div>
+<script>
+// JavaScript Document
+jQuery(document).ready(function ($) {
 
 
 
 
 
-<div class="container-full gap2">
-        <div class="col-sm-12">
-            <h1 class="headline center-text"> Get dishq now </h1>
-          <a href="https://play.google.com/store/apps/details?id=version1.dishq.dishq" target="_blank">
-            <img src="images/bag.png" class="img-responsive bag">
-          </a>
-        </div>
-</div>
+
+
+    /* =============== Isotope =============== */
+    if ($('#list_extension').length > 0) {
+        var $container = $('#list_extension').isotope({
+            itemSelector: '.element-item',
+            visibleStyle: {opacity: 1, transform: "scale(1)"},
+            //layoutMode: 'fitRows',
+        });
+        // Filter items on link click
+        $('#filters-item-extension').on('click', 'a', function () {
+            var filterValue = $(this).attr('data-filter');
+            $container.isotope({filter: filterValue});
+            $('#filters-item-extension a').removeClass('active-filter');
+            $(this).addClass('active-filter');
+            return false;
+        });
+    }
+
+    // Drag & Drop Before - After
+    var windowWidth = $(window).width(),
+        haft_win = windowWidth / 2;
+    $('.wrapper-after').width(windowWidth);
+    $(window).resize(function () {
+        var windowWidth = $(window).width();
+        $('.wrapper-after').css('width', windowWidth + 'px');
+    });
+    $(function () {
+        var $dragMe = $("#dragme");
+        var $beforeAfter = $("#before-after");
+        var $viewAfter = $(".view-after");
+        if ($("#dragme").length == 0)
+            return;
+        Draggable.create($dragMe, {
+            type: "left",
+            bounds: $beforeAfter,
+            onDrag: updateImages
+        });
+        //Intro Animation
+        animateTo(haft_win);
+        $(window).resize(function () {
+            var windowWidth = $(window).width(),
+                haft_win = windowWidth / 2;
+            animateTo(haft_win);
+        });
+        function updateImages() {
+            var logo = $('.wrapper-logo').offset().left,
+                drag = $('#dragme').offset().left;
+            if (drag < logo)
+                $('.wrapper-logo').addClass('red');
+            else
+                $('.wrapper-logo').removeClass('red');
+            TweenLite.set($viewAfter, {width: $dragMe.css("left")});		//or this.x if only dragging
+        }
+
+        function animateTo(_left) {
+            TweenLite.to($dragMe, 1, {left: _left, onUpdate: updateImages});
+        }
+
+        //V2 Click added
+        $beforeAfter.on("click", function (event) {
+            var eventLeft = event.clientX - $beforeAfter.offset().left;
+            animateTo(eventLeft);
+        });
+    });//end jQuery wrapper
+
+
+
+
+});
+</script>
+
 
 
 
@@ -257,15 +273,23 @@
 
 <!-- /.container -->
 
-<?php include 'footer.php';?>
+
   <!-- jQuery Version 1.11.1 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/Drift.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
  <!-- <script src="js/menu.js"></script> -->
-<script type="text/javascript" src="js/skrollr.min.js"></script>
+<!-- <script type="text/javascript" src="js/skrollr.min.js"></script> -->
 <script type="text/javascript">
+new Drift(document.querySelector('#hov'), {
+  inlinePane: true,
+  containInline: true,
+  zoomFactor: 1
+});
+
+
 $(window).bind("scroll", function() {
 if ($(this).scrollTop() > 600) {
   $(".playstore").fadeIn();
@@ -275,17 +299,11 @@ if ($(this).scrollTop() > 600) {
 });
 
 
-$(function () {
-// initialize skrollr if the window width is large enough
-if ($(window).width() > 767) {
-var s = skrollr.init({
-    // forceHeight: false,
-    // smoothScrolling: false,
-    // mobileDeceleration: 0.004
-});
-}
 
 $(document).click(function(e) {
+
+
+
   var sidebar = $("#mySidenav");
   var sidebarWdith = $("#mySidenav").width();
   // console.log(sidebar);
@@ -294,6 +312,36 @@ $(document).click(function(e) {
   }
 });
 
+
+</script>
+<script>
+
+
+$(document).ready(function(){
+  $(".tooltip-item-1").mouseenter(function(){
+      $("#one").fadeIn();
+  });
+  $(".tooltip-item-1").mouseleave(function(){
+      $("#one").fadeOut();
+  });
+  $(".tooltip-item-2").mouseenter(function(){
+      $("#two").fadeIn();
+  });
+  $(".tooltip-item-2").mouseleave(function(){
+      $("#two").fadeOut();
+  });
+  $(".tooltip-item-3").mouseenter(function(){
+      $("#three").fadeIn();
+  });
+  $(".tooltip-item-3").mouseleave(function(){
+      $("#three").fadeOut();
+  });
+  $(".tooltip-item-4").mouseenter(function(){
+      $("#four").fadeIn();
+  });
+  $(".tooltip-item-4").mouseleave(function(){
+      $("#four").fadeOut();
+  });
 });
 </script>
 

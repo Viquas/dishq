@@ -5,10 +5,10 @@
 <footer>
   <div class="container-fluid">
     <div class="footer-section">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
 
 
-        <div class="left-link">
+        <div class="left-link pull-down">
           <ul class="left-list">
           <li>
               <a href="https://www.facebook.com/dishqit" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
@@ -24,16 +24,27 @@
           </p> -->
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="middle-link">
-          <br/>
+      <div class="col-sm-3 ">
+        <div class="middle-link pull-down">
+
           <p class="address">
+          <b>  Bangalore: </b><br/>
 #549, 1st Floor, 14th Main Road, <br/>
 HSR Layout, Sector 7 <br/>Bengaluru, Karnataka, 560 102</p>
         </div>
 
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
+        <div class="middle-link">
+
+          <p class="address">
+            <b>  London: </b><br/>
+Cygnus Business Center, <br/>
+Dalmeyer road <br/>London, NW 10 2XA, UK</p>
+        </div>
+
+      </div>
+      <div class="col-sm-3">
         <div class="right-link">
   <p class="privacy"> <a href="privacy.php" class="links" >Privacy Policy</a><br/><a href="terms.php" class="links" > Terms of Use</a></p>
   <p class="privacy"> ©2017 dishq </p>

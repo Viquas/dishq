@@ -8,8 +8,14 @@
   <!-- <a href="developer.php">Developers</a> -->
   <a href="career.php">Careers</a>
   <a href="/blog">Blog</a>
+  <hr/>
+
+
   <div class="side-nav">
     <ul class="link-bottom">
+      <a href="home.php" class="c-link">Foodies</a>
+      <a href="business.php" class="c-link">Business</a>
+      <!-- <a href="home.php" class="c-link">Business</a> -->
       <li class="hidden-lg hidden-md">
           <a href="https://www.facebook.com/dishqit" target="_blank"><i class="fa fa-facebook-square fa-lg green" aria-hidden="true"></i></a>
       </li>
@@ -29,9 +35,7 @@
         </span>
       </li>
   </ul>
-  <!-- <span  onclick="openNav()" class="ham">
-    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-  </span> -->
+
   <p class="text-center logo">
   <a class="navbar-brand" href="index.php">
     <img src="images/logo.png" alt="Dispute Bills" class="img-logo">
