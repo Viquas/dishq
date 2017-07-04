@@ -31,7 +31,7 @@
   <!-- <link href="css/menu.css" rel="stylesheet"> -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- Custom CSS -->
-  <script src="https://use.fontawesome.com/0701a08981.js"></script>
+  
   <style>
   body {
     padding-top: 70px;
